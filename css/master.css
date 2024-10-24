@@ -145,12 +145,6 @@ body {
     padding: 10px;
 }
 
-/* .proj li {
-    background-color: #262627;
-    margin: 15px;
-    border-radius: 10%;
-} */
-
 .proj a:hover {
     color: #f719f7;
 }
@@ -265,7 +259,7 @@ body {
     }
 
     #projects {
-        padding-top: 200px; /* Less padding on smaller screens */
+        padding-top: 60px; /* Less padding on smaller screens */
         padding-bottom: 50px;
     }
 
