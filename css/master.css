@@ -212,20 +212,25 @@ body {
         font-family: 'Inter', sans-serif;
         letter-spacing: .05em;
     }
+    
+    .nav {
+        display: flex;
+    }
+
 
     /* Flex column layout for smaller screens */
-    .container {
+    /* .container {
         display: flex;
         flex-direction: column;
         padding: 12px;
-    }
+    } */
 
     /* Adjust header size and positioning */
     .header {
-        position: relative; /* Remove sticky positioning */
-        width: 100%; /* Full width on smaller screens */
-        padding-left: 0; /* Remove excessive padding */
-        padding: 12px; /* Smaller padding */
+        position: relative; 
+        width: 100%; 
+        padding-left: 0; 
+        padding: 12px; 
     }
 
     /* Resize title */
